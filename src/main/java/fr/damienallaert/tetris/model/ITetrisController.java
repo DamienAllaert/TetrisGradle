@@ -1,4 +1,4 @@
-package fr.perso.tetris.model;
+package fr.damienallaert.tetris.model;
 
 import javafx.stage.Stage;
 

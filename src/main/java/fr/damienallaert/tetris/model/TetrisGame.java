@@ -1,6 +1,6 @@
-package fr.perso.tetris.model;
+package fr.damienallaert.tetris.model;
 
-import fr.perso.tetris.controller.TetrisController;
+import fr.damienallaert.tetris.controller.TetrisController;
 
 public final class TetrisGame {
     

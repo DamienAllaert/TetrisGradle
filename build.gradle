@@ -12,8 +12,8 @@ repositories {
 }
 
 application {
-    mainModule = 'fr.perso.tetris'
-    mainClass = 'fr.perso.tetris.Tetris'
+    mainModule = 'fr.damienallaert.tetris'
+    mainClass = 'fr.damienallaert.tetris.Tetris'
 }
 
 dependencies {

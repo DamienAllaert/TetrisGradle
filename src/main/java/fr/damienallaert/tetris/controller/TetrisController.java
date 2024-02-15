@@ -1,7 +1,7 @@
-package fr.perso.tetris.controller;
+package fr.damienallaert.tetris.controller;
 
-import fr.perso.tetris.model.ITetrisController;
-import fr.perso.tetris.model.TetrisGame;
+import fr.damienallaert.tetris.model.ITetrisController;
+import fr.damienallaert.tetris.model.TetrisGame;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

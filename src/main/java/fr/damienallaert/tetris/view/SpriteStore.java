@@ -1,4 +1,4 @@
-package fr.perso.tetris.view;
+package fr.damienallaert.tetris.view;
 
 public class SpriteStore implements ISpriteStore{
     @Override

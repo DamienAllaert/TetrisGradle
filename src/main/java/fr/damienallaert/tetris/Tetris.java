@@ -1,9 +1,9 @@
-package fr.perso.tetris;
+package fr.damienallaert.tetris;
 
-import fr.perso.tetris.controller.TetrisController;
-import fr.perso.tetris.model.TetrisGame;
-import fr.perso.tetris.view.ISpriteStore;
-import fr.perso.tetris.view.SpriteStore;
+import fr.damienallaert.tetris.controller.TetrisController;
+import fr.damienallaert.tetris.model.TetrisGame;
+import fr.damienallaert.tetris.view.ISpriteStore;
+import fr.damienallaert.tetris.view.SpriteStore;
 import javafx.application.Application;
 
 import javafx.fxml.FXMLLoader;
@@ -25,7 +25,7 @@ public class Tetris extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         // On commence par charger la vue et son contrôleur.
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fr.perso.tetris/view/tetris.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fr/damienallaert/tetris/view/tetris.fxml"));
         System.out.println();
         Parent viewContent = fxmlLoader.load();
         ISpriteStore spriteStore = new SpriteStore();
